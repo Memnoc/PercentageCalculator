@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Percentage Calculator</string>
+    <string name="enter_number">Enter Number</string>
+    <string name="enter_percentage">Enter Percentage</string>
+    <string name="of">of</string>
+    <string name="what_is">What is</string>
+    <string name="_0">0</string>
+    <string name="calculate">CALCULATE</string>
+
+</resources>

@@ -32,14 +32,14 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:text="of"
+        android:gravity="start"
+        android:text="@string/of"
         android:textAlignment="textStart"
         android:textSize="30sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/numberField"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.019"
-        app:layout_constraintStart_toStartOf="parent"
-        android:gravity="start" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/whatView"
@@ -47,7 +47,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:text="What is"
+        android:text="@string/what_is"
         android:textAlignment="center"
         android:textSize="30sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/percentageField"
@@ -63,7 +63,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="0"
+        android:text="@string/_0"
         android:textAlignment="center"
         android:textSize="45sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -97,15 +97,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
         android:backgroundTint="@color/colorPrimary"
         android:elevation="0dp"
-        android:text="CALCULATE"
+        android:text="@string/calculate"
         android:textColor="@android:color/background_light"
         app:layout_constraintBaseline_toBaselineOf="@+id/totalTextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.033"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginRight="8dp" />
 
     <TextView
         android:id="@+id/percentageSymbol"
